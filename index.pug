@@ -1,0 +1,42 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="/css/swiper-bundle.css")
+        link(rel="stylesheet", href="css/styles.css")
+        link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous")
+    body 
+        - let episodes = ['Rick cena Mort André','Rick Dobles, mi Mortijer y yo','Una Rickdad Mortincómoda','Rickdependence Spray','Amortycan Grickfitti','El increible día de la Explota-acción de Gracias','Gotron Jerrysis Rickvangelion','Rickcuérdate de Mort','Mortpaso de Rick','Rick MuraiJack']
+        - let enlaces = ['https://drive.google.com/file/d/1y9kIlitKIygURfp68mTwf7Q1bgDrFPqu/view?usp=sharing','https://drive.google.com/file/d/15EoO7grPIp7HvLj4k-WmLE3ktwUbPQsE/view?usp=sharing','https://drive.google.com/file/d/1-4DVBqPC3r3_Di7zr5TJFrBZN2V8sSw_/view?usp=sharing','https://drive.google.com/file/d/11ziXgCx5yuy7-l5AtjSkRjZ9nGZY7bKB/view?usp=sharing','https://drive.google.com/file/d/1C9O_J9B2pQ53LnpznW4Z8rT23yiq8TqZ/view?usp=sharing','https://drive.google.com/file/d/1GsKLhTL_hgHwiLnufX8D-X-2kW3jkbJx/view?usp=sharing','https://drive.google.com/file/d/1HAYRvTU1_xfjpwwrw0t8ZfnWjaVF4jCR/view?usp=sharing','https://drive.google.com/file/d/1GaX14Eir8grjnwviUYO2RfaiFWhwUbz8/view?usp=sharing','https://drive.google.com/file/d/18IygMPP5o5MKkidgtD7AcEUJSi13oV7m/view?usp=sharing','https://drive.google.com/file/d/1bTarwBKjgcwo5mzYeMZacnfkxtT56xTy/view?usp=sharing']
+        .container
+            .header-container
+                header.header
+                    
+                    .data
+                        h1.title Epílogo
+                        p.epilogo Después de haber estado desaparecido durante casi 20 años, Rick Sánchez llega de imprevisto a la puerta de la casa de su hija Beth y se va a vivir con ella y su familia utilizando el garaje como su laboratorio personal.
+                        p.seasons-number 5 TEMPORADAS
+                        .social
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-whatsapp"></i>
+                            <i class="fas fa-share-alt"></i>
+                            <i class="far fa-copy"></i>
+                    .data-image 
+                        img(src="/images/rickinillo.png", alt="")
+            p.season Temporada 5
+            .swiper     
+                .swiper-wrapper 
+                    - let t = 0
+                    - let n = 1
+                    - let r = 1
+                    each episode in episodes
+                        .swiper-slide(class=`episode-${n++}`)
+                            a.enlace(href=`${enlaces[t++]}`)
+                            p.text-slide(class=`slide-${r++}`)= episode
+                .swiper-pagination
+        script(src="https://unpkg.com/swiper@7/swiper-bundle.min.js") 
+        script(src="wraper.js") 
