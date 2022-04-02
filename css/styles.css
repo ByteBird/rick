@@ -27,6 +27,17 @@ div {
   max-width: 1240px;
   margin-bottom: 100px; }
 
+.episode-1-1:after, .episode-1-2:after, .episode-1-3:after, .episode-1-4:after, .episode-1-5:after, .episode-1-6:after, .episode-1-7:after, .episode-1-8:after, .episode-1-9:after, .episode-1-10:after, .episode-1-11:after, .episode-2-1:after, .episode-2-2:after, .episode-2-3:after, .episode-2-4:after, .episode-2-5:after, .episode-2-6:after, .episode-2-7:after, .episode-2-8:after, .episode-2-9:after, .episode-2-10:after, .episode-2-11:after, .episode-3-1:after, .episode-3-2:after, .episode-3-3:after, .episode-3-4:after, .episode-3-5:after, .episode-3-6:after, .episode-3-7:after, .episode-3-8:after, .episode-3-9:after, .episode-3-10:after, .episode-3-11:after, .episode-4-1:after, .episode-4-2:after, .episode-4-3:after, .episode-4-4:after, .episode-4-5:after, .episode-4-6:after, .episode-4-7:after, .episode-4-8:after, .episode-4-9:after, .episode-4-10:after, .episode-4-11:after, .episode-5-1:after, .episode-5-2:after, .episode-5-3:after, .episode-5-4:after, .episode-5-5:after, .episode-5-6:after, .episode-5-7:after, .episode-5-8:after, .episode-5-9:after, .episode-5-10:after, .episode-5-11:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.744);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .swiper {
   position: relative;
   width: 100%;
@@ -35,47 +46,294 @@ div {
   border-radius: 6px;
   padding-bottom: 50px; }
 
-.episode-1 {
-  background: url(../images/capitulo-1.png); }
+.episode-1-1 {
+  background: url("../images1/capitulo-1.png"); }
+  .episode-1-1:after {
+    content: "1"; }
 
-.episode-2 {
-  background: url(../images/capitulo-2.png); }
+.episode-1-2 {
+  background: url("../images1/capitulo-2.png"); }
+  .episode-1-2:after {
+    content: "2"; }
 
-.episode-3 {
-  background: url(../images/capitulo-3.png); }
+.episode-1-3 {
+  background: url("../images1/capitulo-3.png"); }
+  .episode-1-3:after {
+    content: "3"; }
 
-.episode-4 {
-  background: url(../images/capitulo-4.png); }
+.episode-1-4 {
+  background: url("../images1/capitulo-4.png"); }
+  .episode-1-4:after {
+    content: "4"; }
 
-.episode-5 {
-  background: url(../images/capitulo-5.png); }
+.episode-1-5 {
+  background: url("../images1/capitulo-5.png"); }
+  .episode-1-5:after {
+    content: "5"; }
 
-.episode-6 {
-  background: url(../images/capitulo-6.png); }
+.episode-1-6 {
+  background: url("../images1/capitulo-6.png"); }
+  .episode-1-6:after {
+    content: "6"; }
 
-.episode-7 {
-  background: url(../images/capitulo-7.png); }
+.episode-1-7 {
+  background: url("../images1/capitulo-7.png"); }
+  .episode-1-7:after {
+    content: "7"; }
 
-.episode-8 {
-  background: url(../images/capitulo-8.png); }
+.episode-1-8 {
+  background: url("../images1/capitulo-8.png"); }
+  .episode-1-8:after {
+    content: "8"; }
 
-.episode-9 {
-  background: url(../images/capitulo-9.png); }
+.episode-1-9 {
+  background: url("../images1/capitulo-9.png"); }
+  .episode-1-9:after {
+    content: "9"; }
 
-.episode-10 {
-  background: url(../images/capitulo-10.png); }
+.episode-1-10 {
+  background: url("../images1/capitulo-10.png"); }
+  .episode-1-10:after {
+    content: "10"; }
+
+.episode-1-11 {
+  background: url("../images1/capitulo-11.png"); }
+  .episode-1-11:after {
+    content: "11"; }
+
+.episode-2-1 {
+  background: url("../images2/capitulo-1.png"); }
+  .episode-2-1:after {
+    content: "1"; }
+
+.episode-2-2 {
+  background: url("../images2/capitulo-2.png"); }
+  .episode-2-2:after {
+    content: "2"; }
+
+.episode-2-3 {
+  background: url("../images2/capitulo-3.png"); }
+  .episode-2-3:after {
+    content: "3"; }
+
+.episode-2-4 {
+  background: url("../images2/capitulo-4.png"); }
+  .episode-2-4:after {
+    content: "4"; }
+
+.episode-2-5 {
+  background: url("../images2/capitulo-5.png"); }
+  .episode-2-5:after {
+    content: "5"; }
+
+.episode-2-6 {
+  background: url("../images2/capitulo-6.png"); }
+  .episode-2-6:after {
+    content: "6"; }
+
+.episode-2-7 {
+  background: url("../images2/capitulo-7.png"); }
+  .episode-2-7:after {
+    content: "7"; }
+
+.episode-2-8 {
+  background: url("../images2/capitulo-8.png"); }
+  .episode-2-8:after {
+    content: "8"; }
+
+.episode-2-9 {
+  background: url("../images2/capitulo-9.png"); }
+  .episode-2-9:after {
+    content: "9"; }
+
+.episode-2-10 {
+  background: url("../images2/capitulo-10.png"); }
+  .episode-2-10:after {
+    content: "10"; }
+
+.episode-2-11 {
+  background: url("../images2/capitulo-11.png"); }
+  .episode-2-11:after {
+    content: "11"; }
+
+.episode-3-1 {
+  background: url("../images3/capitulo-1.png"); }
+  .episode-3-1:after {
+    content: "1"; }
+
+.episode-3-2 {
+  background: url("../images3/capitulo-2.png"); }
+  .episode-3-2:after {
+    content: "2"; }
+
+.episode-3-3 {
+  background: url("../images3/capitulo-3.png"); }
+  .episode-3-3:after {
+    content: "3"; }
+
+.episode-3-4 {
+  background: url("../images3/capitulo-4.png"); }
+  .episode-3-4:after {
+    content: "4"; }
+
+.episode-3-5 {
+  background: url("../images3/capitulo-5.png"); }
+  .episode-3-5:after {
+    content: "5"; }
+
+.episode-3-6 {
+  background: url("../images3/capitulo-6.png"); }
+  .episode-3-6:after {
+    content: "6"; }
+
+.episode-3-7 {
+  background: url("../images3/capitulo-7.png"); }
+  .episode-3-7:after {
+    content: "7"; }
+
+.episode-3-8 {
+  background: url("../images3/capitulo-8.png"); }
+  .episode-3-8:after {
+    content: "8"; }
+
+.episode-3-9 {
+  background: url("../images3/capitulo-9.png"); }
+  .episode-3-9:after {
+    content: "9"; }
+
+.episode-3-10 {
+  background: url("../images3/capitulo-10.png"); }
+  .episode-3-10:after {
+    content: "10"; }
+
+.episode-3-11 {
+  background: url("../images3/capitulo-11.png"); }
+  .episode-3-11:after {
+    content: "11"; }
+
+.episode-4-1 {
+  background: url("../images4/capitulo-1.png"); }
+  .episode-4-1:after {
+    content: "1"; }
+
+.episode-4-2 {
+  background: url("../images4/capitulo-2.png"); }
+  .episode-4-2:after {
+    content: "2"; }
+
+.episode-4-3 {
+  background: url("../images4/capitulo-3.png"); }
+  .episode-4-3:after {
+    content: "3"; }
+
+.episode-4-4 {
+  background: url("../images4/capitulo-4.png"); }
+  .episode-4-4:after {
+    content: "4"; }
+
+.episode-4-5 {
+  background: url("../images4/capitulo-5.png"); }
+  .episode-4-5:after {
+    content: "5"; }
+
+.episode-4-6 {
+  background: url("../images4/capitulo-6.png"); }
+  .episode-4-6:after {
+    content: "6"; }
+
+.episode-4-7 {
+  background: url("../images4/capitulo-7.png"); }
+  .episode-4-7:after {
+    content: "7"; }
+
+.episode-4-8 {
+  background: url("../images4/capitulo-8.png"); }
+  .episode-4-8:after {
+    content: "8"; }
+
+.episode-4-9 {
+  background: url("../images4/capitulo-9.png"); }
+  .episode-4-9:after {
+    content: "9"; }
+
+.episode-4-10 {
+  background: url("../images4/capitulo-10.png"); }
+  .episode-4-10:after {
+    content: "10"; }
+
+.episode-4-11 {
+  background: url("../images4/capitulo-11.png"); }
+  .episode-4-11:after {
+    content: "11"; }
+
+.episode-5-1 {
+  background: url("../images5/capitulo-1.png"); }
+  .episode-5-1:after {
+    content: "1"; }
+
+.episode-5-2 {
+  background: url("../images5/capitulo-2.png"); }
+  .episode-5-2:after {
+    content: "2"; }
+
+.episode-5-3 {
+  background: url("../images5/capitulo-3.png"); }
+  .episode-5-3:after {
+    content: "3"; }
+
+.episode-5-4 {
+  background: url("../images5/capitulo-4.png"); }
+  .episode-5-4:after {
+    content: "4"; }
+
+.episode-5-5 {
+  background: url("../images5/capitulo-5.png"); }
+  .episode-5-5:after {
+    content: "5"; }
+
+.episode-5-6 {
+  background: url("../images5/capitulo-6.png"); }
+  .episode-5-6:after {
+    content: "6"; }
+
+.episode-5-7 {
+  background: url("../images5/capitulo-7.png"); }
+  .episode-5-7:after {
+    content: "7"; }
+
+.episode-5-8 {
+  background: url("../images5/capitulo-8.png"); }
+  .episode-5-8:after {
+    content: "8"; }
+
+.episode-5-9 {
+  background: url("../images5/capitulo-9.png"); }
+  .episode-5-9:after {
+    content: "9"; }
+
+.episode-5-10 {
+  background: url("../images5/capitulo-10.png"); }
+  .episode-5-10:after {
+    content: "10"; }
+
+.episode-5-11 {
+  background: url("../images5/capitulo-11.png"); }
+  .episode-5-11:after {
+    content: "11"; }
 
 .swiper-slide {
   text-align: center;
   font-size: 1.5em;
   letter-spacing: 1px;
   background-size: cover;
+  background-position: center center;
   color: rgba(255, 255, 255, 0.883);
   font-weight: bold;
   text-shadow: 2px 2px 5px #222;
   box-shadow: 0 0 0 2px #111111;
   border-radius: 4px;
   transition-duration: .3s;
+  letter-spacing: 1px;
   /* Center slide text */
   display: flex;
   justify-content: center;
@@ -134,6 +392,11 @@ div {
     width: 100%;
     height: 2px;
     background: rgba(190, 190, 190, 0.096); }
+
+.seasons-number {
+  padding: 1em;
+  background: #1f1f1f;
+  max-width: 205px; }
 
 .enlace {
   display: block;

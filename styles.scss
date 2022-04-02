@@ -27,6 +27,18 @@ div{
     margin-bottom: 100px;
 }
 
+%perfecto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.744);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .swiper {
     position: relative;
     width: 100%;
@@ -36,18 +48,27 @@ div{
     padding-bottom: 50px;
 }
 
-
-@for $n from 1 through 10{
-    .episode-#{$n}{
-        background: url(../images/capitulo-#{$n}.png);
+@for $a from 1 through 5{
+    @for $n from 1 through 11{
+        .episode-#{$a}-#{$n}{
+            background: url('../images#{$a}/capitulo-#{$n}.png');
+            &:after{
+                content: '#{$n}';
+                @extend %perfecto;
+                
+            }
+        }
+        
     }
 }
+
 
 .swiper-slide {
     text-align: center;
     font-size: 1.5em;
     letter-spacing: 1px;
     background-size: cover;
+    background-position: center center;
     color: rgba(255, 255, 255, 0.883);
     font-weight: bold;
     text-shadow: 2px 2px 5px #222;
@@ -122,6 +143,12 @@ div{
         height: 2px;
         background: rgba(190, 190, 190, 0.096);
     }
+}
+
+.seasons-number{
+    padding: 1em;
+    background: rgb(31, 31, 31);
+    max-width: 205px;
 }
 
 .enlace{
