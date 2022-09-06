@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "porfolio-327c6"
-  }
+    "default": "porfolio-327c6",
+    "rick-and-morty": "rick-and-morty-page"
+  },
+  "targets": {},
+  "etags": {}
 }
